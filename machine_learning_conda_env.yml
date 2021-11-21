@@ -1,9 +1,0 @@
-name: machine_learning
-channels:
-  - defaults
-dependencies:
-  - numpy
-  - scipy
-  - matplotlib
-  - pandas
-  - autopep8
