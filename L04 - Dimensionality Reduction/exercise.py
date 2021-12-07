@@ -10,9 +10,9 @@ data = loadmat('../Datasets/mnist_all.mat')
 # and then reduce dimension to 2
 
 # Extracting training sets from data dict
-train5 = data['train5']
-train6 = data['train6']
-train8 = data['train8']
+train5 = data['train5']/255
+train6 = data['train6']/255
+train8 = data['train8']/255
 
 # Create classes for training sets
 train5_class = 5*np.ones(len(train5))
@@ -20,9 +20,9 @@ train6_class = 6*np.ones(len(train6))
 train8_class = 8*np.ones(len(train8))
 
 # Extracting test sets from data dict
-test5 = data['test5']
-test6 = data['test6']
-test8 = data['test8']
+test5 = data['test5']/255
+test6 = data['test6']/255
+test8 = data['test8']/255
 
 # Create classes for test sets
 test5_class = 5*np.ones(len(test5))
