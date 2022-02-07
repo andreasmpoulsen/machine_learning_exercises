@@ -1,4 +1,5 @@
 # machine_learning_exercises
+
 Exercises for the Machine Learning course from VGIS at AAU
 
 Exercises for the following lectures:
@@ -17,4 +18,5 @@ Exercises for the following lectures:
 All exercises completed in Python
 
 ## Installing conda environment:
+
 conda env create --file machine_learning_env.yml
